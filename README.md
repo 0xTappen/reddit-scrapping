@@ -1,15 +1,15 @@
-# 🤖 Reddit Scraper
+# Reddit Scraper
 
 Reddit Scraper is a **free and open-source** scraper that gets you **unlimited** detailed Reddit data for free.
 
-## ✨ What Can I Get?
+## What Can I Get?
 
-- 🧵 **Any post with its full comment tree** — nested replies, scores, authors & flairs; export whole threads of up to 2,000 comments in one call
-- 🔍 **Search 26B+ posts & comments** — posts, comments, media, communities & users with sort and time filters
-- 🏘️ **All 100K+ active communities** — members, rules, wiki, pinned posts, similar subs & best posting hours
-- 👤 **Any user's full profile** — karma, cake day, trophies, post & comment history, subreddits they moderate
+- **Any post with its full comment tree** — nested replies, scores, authors & flairs; export whole threads of up to 2,000 comments in one call
+- **Search 26B+ posts & comments** — posts, comments, media, communities & users with sort and time filters
+- **All 100K+ active communities** — members, rules, wiki, pinned posts, similar subs & best posting hours
+- **Any user's full profile** — karma, cake day, trophies, post & comment history, subreddits they moderate
 
-## 🎥 Example: A Full Reddit Thread
+## Example: A Full Reddit Thread
 
 ```json
 {
@@ -52,21 +52,21 @@ Reddit Scraper is a **free and open-source** scraper that gets you **unlimited**
 
 *Trimmed for readability.*
 
-## 🚀 Unlimited Free Reddit Data — Get It in 60 Seconds
+## Unlimited Free Reddit Data — Get It in 60 Seconds
 
-1️⃣ Clone and install:
+1. Clone and install:
 ```bash
 git clone https://github.com/omkarcloud/reddit-scraper
 cd reddit-scraper
 python -m pip install -r requirements.txt
 ```
 
-2️⃣ Start the API:
+2. Start the API:
 ```bash
 python run.py
 ```
 
-3️⃣ Get your first data:
+3. Get your first data:
 ```bash
 curl "http://localhost:8000/posts/comments?post=z1c9z&sort=top&limit=3&depth=1"
 ```
@@ -97,7 +97,7 @@ curl "http://localhost:8000/posts/comments?post=z1c9z&sort=top&limit=3&depth=1"
 
 All 40 endpoints are now live at `http://localhost:8000`.
 
-## 📚 Endpoints
+## Endpoints
 
 40 endpoints cover everything you need.
 
@@ -130,7 +130,7 @@ All 40 endpoints are now live at `http://localhost:8000`.
 | User Trophies / Moderated Subreddits | `/users/trophies`, `/users/moderated` | Trophy case, and every subreddit they moderate |
 | Popular / All / Best Posts | `/feeds/popular`, `/feeds/all`, `/feeds/best` | r/popular in 16 countries, r/all, the front page |
 
-## 🔍 Exploring Parameters
+## Exploring Parameters
 
 The same API is published on RapidAPI, and its playground is the easiest place to try parameters and see raw responses. Once a request looks right, run it locally for **unlimited free** data.
 
@@ -149,15 +149,15 @@ response = requests.get(
 print(response.json())
 ```
 
-## 💬 Have Questions? We Have Answers.
+## Have Questions? We Have Answers.
 
-You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
+You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply with a solution within 1 working day.
 
 [![Message Us on WhatsApp about Reddit Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20help%20using%20the%20Reddit%20Scraper%20API.)
 
 [![Ask Us by Email about Reddit Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Reddit%20Scraper%20API&body=I%20need%20help%20using%20the%20Reddit%20Scraper%20API.)
 
-## ⚡ Popular Scrapers by Omkar Cloud
+## Popular Scrapers by Omkar Cloud
 
 - [**Google Maps Scraper (3,100+ GitHub Stars)**](https://github.com/omkarcloud/google-maps-scraper) — type "dentists in New York", get every business as a ready-to-call lead list: phones, emails, websites & reviews. Up to 100K free leads/month.
 - [**Threads Scraper**](https://github.com/omkarcloud/threads-scraper) — Threads posts, profiles, replies & search
@@ -166,9 +166,9 @@ You're a developer — we know how hard completing a project can be. So we offer
 - [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
 - [**AliExpress Scraper**](https://www.omkar.cloud/tools/aliexpress-scraper) — live product details, SKU variants, stock & shipping
 
-## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/reddit-scraper)
+## Love It? [Star It!](https://github.com/omkarcloud/reddit-scraper)
 
-Star the repo ⭐ and become my star hero!
+Star the repo and become my star hero!
 
 It's just 1 click, but it means the world to me.
 
